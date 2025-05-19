@@ -1,5 +1,3 @@
-# Travelgram-responsivo
-
 # 🌍 Travelgram
 
 Projeto front-end desenvolvido como parte do curso **Full-Stack da Rocketseat**, com foco em **praticar responsividade e estruturação de layouts modernos com HTML e CSS**.
