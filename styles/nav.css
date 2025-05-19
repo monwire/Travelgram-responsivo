@@ -1,0 +1,43 @@
+nav {
+  padding-block: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 0;
+
+  & ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding-block: 0.5rem;
+
+    & li:nth-child(1) {
+      & a > img {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+
+    & li:nth-child(4) {
+      & a > img {
+        width: 2.5rem;
+        height: 2.5rem;
+        object-fit: cover;
+      }
+    }
+  }
+
+  & .desktop-only {
+    display: none;
+  }
+}
+
+@media (width >= 80em) {
+  nav {
+    & .desktop-only {
+      display: inherit;
+    }
+  }
+}
